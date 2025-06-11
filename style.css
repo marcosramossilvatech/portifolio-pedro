@@ -92,3 +92,136 @@ button:hover{
     border-radius: 50%;
     border: 5px solid #2668db;
 }
+ section {
+    display: inline-block;
+    margin-top: 80px;
+    /* border: 1px solid black; */
+    margin-left: 5%;
+    margin-right: 5%;
+    /* height: 400px; */
+    padding: 5%;
+    /* width: 90%; */
+    
+}
+section h2{
+    width: 100%;
+    font-size: 59px;
+    margin: 0;
+    font-family: cursive;
+    font-weight: bold;
+    color: #cbdeff;
+    text-align: center;
+}
+.serviços{
+    display: inline-block;
+    margin-top: 5%;
+}
+.card{
+    display: inline-block;
+    width: 30%;
+    padding: 20px;
+    margin: 1%;
+    /* border: 1px solid black; */
+    cursor: pointer;
+    text-align: center;
+    background: rgba(0, 0, 0, 0.56);
+    border-radius: 20px;
+}
+.card:hover{
+    background: #2668db;
+    color: white;
+    padding: 40px;
+}
+.card:hover img{
+    display: none;
+}
+.card h3{
+    text-align: center;
+    font-weight: bolder;
+    color: rgb(255, 255, 255);
+}
+.card img{
+    display: flexbox;
+    margin: 0;
+    padding: 10px;
+    margin-left: 35%;
+}
+.card:hover .card-text{
+    display: none;
+}
+.card:hover .texto-oculto{
+    display: block;
+}
+.texto-oculto{
+    display: none;
+}
+
+footer{
+    margin-top: 100px;
+    height: 350px;
+    background-image: linear-gradient(180deg,#180F4A,#090422,black);
+    text-align: center;
+    border-top: 5px solid #FF2978;
+}
+.logo-rodape{
+    padding: 100px;
+}
+.portfolio{
+    font-family: Arial, Helvetica, sans-serif, cursive;
+    color: white;
+    font-size: 34px;
+    font-weight: bold;
+    
+
+}
+
+form {
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
+    }
+
+    input[type="text"],
+    input[type="email"],
+    input[type="password"] {
+      padding: 12px;
+      border: 1px solid #ccc;
+      border-radius: 8px;
+      font-size: 1rem;
+    }
+    .formulario{
+        display: inline-block;
+    margin-top: 10px;
+    border: 1px solid black;
+    margin-left: 5%;
+    margin-right: 5%;
+    /* height: 400px; */
+    padding: 1%;
+    width: 90%;
+    }
+.formulario h2{
+    text-align: center;
+    color: white;
+}
+    .botao {
+      background-color: #4363cf;
+      color: white;
+      padding: 20px;
+      border: none;
+      border-radius: 8px;
+      font-size: 1rem;
+      cursor: pointer;
+      transition: background-color 0.3s;
+      font-size: 2rem;
+      height: 50px;
+      align-items: center;
+    }
+
+    .botao:hover {
+      background-color: #27ae60;
+    }
+    @media (max-width: 600px) {
+      section {
+        margin: 20px;
+      }
+    }

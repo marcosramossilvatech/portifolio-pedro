@@ -1,0 +1,21 @@
+@media screen and (max-width:759px){
+    .Image-wrapper{
+        display: none;
+    }
+    .navbar{
+        margin: 0;
+        text-align: center;
+    }
+    ul.links{
+        margin: 0;
+        text-align: center;
+        justify-content: none;
+        align-items: center;
+    }
+    li.links{
+        margin: 0;
+        text-align: center;
+        justify-content: none;
+        align-items: center;
+    }
+}
